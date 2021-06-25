@@ -1,0 +1,54 @@
+
+.resolution-form__row-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+#theDownloadBtn, .resolution-form__row-btn button { 
+  font-family: inherit;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  border: none;
+  height: 28px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  padding: 1px 6px;
+} 
+
+.resolution-form{
+  display: block;
+  width: 33rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .3rem;
+}
+
+.resolution-form__row input{
+  border-radius: 0.25rem;
+  border: 1px solid black;
+  padding-left: 0.5rem;
+}
+
+.resolution-form__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
